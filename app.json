@@ -17,16 +17,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mlecoq.expo-maplibre"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.mlecoq.expomaplibre"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
-  }
+    },
+    "scheme": "expo-maplibre"
+  },
+  "plugins": [
+    "@react-native-mapbox-gl/maps"
+  ]
 }
